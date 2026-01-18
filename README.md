@@ -2,29 +2,29 @@
 ![Chrome](https://img.shields.io/badge/chrome-extension-green)
 ![Backend](https://img.shields.io/badge/backend-FastAPI-blue)
 
-# 🧵 Thread AI — Smart Email Reply Assistant (Gemini Powered)
+# Thread AI — Smart Email Reply Assistant (Gemini Powered)
 **Thread AI** is a smart, Chrome-based email reply generator that crafts intelligent, context-aware responses using the Gemini AI API. Paste your email thread, choose your tone and role, and let AI generate thoughtful replies tailored to your style — no login or signup required.
 
-## 🚀 Features
+## Features
 
-- ✨ **Auto-generates multiple reply suggestions**
-- 🧠 Supports 3 modes:
+- **Auto-generates multiple reply suggestions**
+- Supports 3 modes:
   - `generate`: generate replies only
   - `analyze`: analyze new message only
   - `both`: combine context + new message
-- 🎭 Tone selector: friendly, formal, witty, etc.
-- 👤 Role selector: recruiter, team lead, developer, etc.
-- 🔐 Local API key storage (secure, browser-only)
-- 📋 One-click copy to clipboard
-- ⚡ Instant results with Gemini Pro LLM
-- 🎨 Minimal & modern UI with intuitive UX
+- Tone selector: friendly, formal, witty, etc.
+- Role selector: recruiter, team lead, developer, etc.
+- Local API key storage (secure, browser-only)
+- One-click copy to clipboard
+- Instant results with Gemini Pro LLM
+- Minimal & modern UI with intuitive UX
 
-## 🔧 Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/Ashank007/threadwise-ai
+git clone https://github.com/ashankgupta/threadwise-ai
 cd threadwise-ai
 ```
 
@@ -50,7 +50,7 @@ Get your key from [Here](https://aistudio.google.com/apikey)
 
 Your key is stored securely using chrome.storage.local and is never shared with any server.
 
-## 📁 Folder Structure
+## Folder Structure
 ```
 threadwise-ai/
 ├── popup.html        # Main UI
@@ -58,25 +58,25 @@ threadwise-ai/
 ├── styles.css        # Tailwind styling
 └── manifest.json     # Chrome extension manifest
 ```
-## 🛠 Tech Stack
+## Tech Stack
 
-- 📦 Chrome Extension (Manifest V3)
+- Chrome Extension (Manifest V3)
 
-- 🎨 TailwindCSS
+- TailwindCSS
 
-- 🧠 Gemini Pro (via FastAPI backend)
+- Gemini Pro (via FastAPI backend)
 
-- 💡 Vanilla JS
+- Vanilla JS
 
-## 🔗 Related Repos
+## Related Repos
 
-- ✅ [Backend](https://github.com/Ashank007/threadwise-ai-backend)
+- [Backend](https://github.com/ashankgupta/threadwise-ai-backend)
 
 
 ## Demo
 [![Watch the demo](https://img.youtube.com/vi/HCNJ8we0uG0/maxresdefault.jpg)](https://youtu.be/HCNJ8we0uG0)
 
 
-## 🪪 License
+## License
 
 - This project is licensed under the MIT License.
